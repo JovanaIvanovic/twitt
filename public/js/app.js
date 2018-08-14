@@ -14307,7 +14307,7 @@ var map = {
 	"./1533566436Aleksandar Ivanovic.jpg": 51,
 	"./comment.png": 6,
 	"./cover.jpg": 52,
-	"./like.png": 53,
+	"./liked.png": 77,
 	"./notliked.png": 16,
 	"./profile.png": 54
 };
@@ -14331,7 +14331,7 @@ webpackContext.id = 15;
 /* 16 */
 /***/ (function(module, exports) {
 
-module.exports = "/images/notliked.png?e43ce51e20308d8e22595fec731d5e6f";
+module.exports = "/images/notliked.png?78fe4e62adbf809359ca6749fed0dadf";
 
 /***/ }),
 /* 17 */
@@ -14365,7 +14365,6 @@ window.Vue = __webpack_require__(42);
 Vue.component('example', __webpack_require__(45));
 Vue.component('home', __webpack_require__(55));
 Vue.component('post', __webpack_require__(60));
-Vue.component('test', __webpack_require__(66));
 
 var app = new Vue({
   el: '#app'
@@ -47851,12 +47850,7 @@ module.exports = "/images/1533566436Aleksandar Ivanovic.jpg?f2d21dbf0a20ebbd92c2
 module.exports = "/images/cover.jpg?912c4861542164f940164d80880f41ee";
 
 /***/ }),
-/* 53 */
-/***/ (function(module, exports) {
-
-module.exports = "/images/like.png?c0b22205d37514e610f013ce20d504e3";
-
-/***/ }),
+/* 53 */,
 /* 54 */
 /***/ (function(module, exports) {
 
@@ -48003,7 +47997,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container", attrs: { id: "app" } }, [
+  return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col col-sm-6" }, [
         _c(
@@ -48123,7 +48117,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.imagecomment[data-v-34a3c3d6]{\n    background: url(" + escape(__webpack_require__(6)) + ") no-repeat;\n    width: 30px; height: 30px;\n    display:inline-block;\n}\n.imagelike[data-v-34a3c3d6]{\n    cursor: pointer;\n    background: url(" + escape(__webpack_require__(16)) + ") no-repeat;\n    width: 30px; height: 30px;\n    display:inline-block;\n}\n.imagelike .yes[data-v-34a3c3d6]{\n    cursor: pointer;\n    background: url(" + escape(__webpack_require__(6)) + ") no-repeat;\n    width: 30px; height: 30px;\n    display:inline-block;\n}\n.entry-body .cat[data-v-34a3c3d6] {\n    font-family: \"Poppins\", sans-serif;\n    font-size: 12px;\n    font-weight: 600;\n    color: #6220d9;\n    text-transform: uppercase;\n}\n.entry-body[data-v-34a3c3d6] {\n    padding: 27px 10px;\n}\n.read-more-date[data-v-34a3c3d6] {\n    position: relative;\n}\n.read-more-date .date[data-v-34a3c3d6] {\n\n    position: absolute;\n    right: 0;\n    color: #90949a;\n    display:inline-block;\n}\n.entry-body h3[data-v-34a3c3d6] {\n    font-size: 21px;\n    font-weight: 600;\n    line-height: 1.30em;\n    margin: 3px 0 0.73em;\n}\n.entry-body h3 a[data-v-34a3c3d6] {\n    color: #7b4397;\n}\n.entry-body h3 a[data-v-34a3c3d6]:hover {\n    color: #6220d9;\n    text-decoration: none;\n}\n.entry-body p[data-v-34a3c3d6] {\n    margin-bottom: 2em;\n    color: #90949a;\n    line-height: 1.8em;\n}\n.read-more-date a[data-v-34a3c3d6] {\n    font-family: \"Poppins\", sans-serif;\n    font-size: 16px;\n    font-size: 1.06667rem;\n    font-weight: 600;\n    color: #41516a;\n    text-transform: uppercase;\n}\n\n", ""]);
+exports.push([module.i, "\n.imagecomment[data-v-34a3c3d6]{\n    background: url(" + escape(__webpack_require__(6)) + ") no-repeat;\n    width: 30px; height: 30px;\n    display:inline-block;\n}\n.imagelike[data-v-34a3c3d6]{\n    cursor: pointer;\n    background: url(" + escape(__webpack_require__(16)) + ") no-repeat;\n    width: 30px; height: 30px;\n    display:inline-block;\n}\n#like.yes[data-v-34a3c3d6]{\n    cursor: pointer;\n    background: url(" + escape(__webpack_require__(77)) + ") no-repeat;\n    width: 30px; height: 30px;\n    display:inline-block;\n}\n.entry-body .cat[data-v-34a3c3d6] {\n    font-family: \"Poppins\", sans-serif;\n    font-size: 12px;\n    font-weight: 600;\n    color: #6220d9;\n    text-transform: uppercase;\n}\n.entry-body[data-v-34a3c3d6] {\n    padding: 27px 10px;\n}\n.read-more-date[data-v-34a3c3d6] {\n    position: relative;\n}\n.read-more-date .date[data-v-34a3c3d6] {\n\n    position: absolute;\n    right: 0;\n    color: #90949a;\n    display:inline-block;\n}\n.entry-body h3[data-v-34a3c3d6] {\n    font-size: 21px;\n    font-weight: 600;\n    line-height: 1.30em;\n    margin: 3px 0 0.73em;\n}\n.entry-body h3 a[data-v-34a3c3d6] {\n    color: #7b4397;\n}\n.entry-body h3 a[data-v-34a3c3d6]:hover {\n    color: #6220d9;\n    text-decoration: none;\n}\n.entry-body p[data-v-34a3c3d6] {\n    margin-bottom: 2em;\n    color: #90949a;\n    line-height: 1.8em;\n}\n.read-more-date a[data-v-34a3c3d6] {\n    font-family: \"Poppins\", sans-serif;\n    font-size: 16px;\n    font-size: 1.06667rem;\n    font-weight: 600;\n    color: #41516a;\n    text-transform: uppercase;\n}\n\n", ""]);
 
 // exports
 
@@ -48185,7 +48179,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     methods: {
         like: function like() {
-            console.log("Like");
+            if (this.liked) {
+                this.liked = false;
+            } else if (!this.liked) {
+                this.liked = true;
+            }
         }
     }
 });
@@ -48209,6 +48207,7 @@ var render = function() {
       _c("div", {
         staticClass: "imagelike",
         class: { yes: _vm.liked },
+        attrs: { id: "like" },
         on: { click: _vm.like }
       }),
       _vm._v(" "),
@@ -48229,154 +48228,26 @@ if (false) {
 }
 
 /***/ }),
-/* 66 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-function injectStyle (ssrContext) {
-  if (disposed) return
-  __webpack_require__(67)
-}
-var normalizeComponent = __webpack_require__(4)
-/* script */
-var __vue_script__ = __webpack_require__(69)
-/* template */
-var __vue_template__ = __webpack_require__(70)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-d4aeccee"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources\\assets\\js\\components\\Test.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d4aeccee", Component.options)
-  } else {
-    hotAPI.reload("data-v-d4aeccee", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 67 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(68);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(3)("582f561c", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d4aeccee\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Test.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d4aeccee\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Test.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 68 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 69 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    name: "test"
-
-});
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container", attrs: { id: "app" } }, [
-    _c(
-      "button",
-      {
-        on: {
-          click: function($event) {
-            _vm.console.log("hello")
-          }
-        }
-      },
-      [_vm._v("\n        Hello\n    ")]
-    )
-  ])
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d4aeccee", module.exports)
-  }
-}
-
-/***/ }),
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
 /* 71 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */
+/***/ (function(module, exports) {
+
+module.exports = "/images/liked.png?6df8313f78ba9e3e06c4ae258637b9d8";
 
 /***/ })
 /******/ ]);

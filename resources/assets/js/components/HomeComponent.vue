@@ -1,5 +1,5 @@
 <template>
-    <div class="container" id="app">
+    <div class="container">
         <div class="row">
             <div  class="col col-sm-6">
                 <div class="blog-grids">

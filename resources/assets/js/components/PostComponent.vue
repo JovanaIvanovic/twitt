@@ -3,7 +3,7 @@
         <h3><a href="#">{{user.name}}</a></h3>
         <p>{{post.body}}</p>
         <div class="read-more-date">
-            <div class="imagelike" :class="{yes: liked}" @click="like">
+            <div class="imagelike" :class="{yes: liked}" @click="like" id="like">
             </div>
             <div class="imagecomment">
             </div>
@@ -25,8 +25,12 @@
             }
         },
         methods:{
-            like: function(){
-                console.log("Like");
+            like(){
+                if(this.liked){
+                    this.liked=false;
+                }else if(!this.liked){
+                    this.liked=true;
+                }
             }
         }
     }
@@ -45,9 +49,9 @@
         width: 30px; height: 30px;
         display:inline-block;
     }
-    .imagelike .yes{
+    #like.yes{
         cursor: pointer;
-        background: url(../../../../public/uploads/comment.png) no-repeat;
+        background: url(../../../../public/uploads/liked.png) no-repeat;
         width: 30px; height: 30px;
         display:inline-block;
     }
