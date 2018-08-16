@@ -20,4 +20,14 @@ class HomeController extends Controller
         $users=User::all();
         return view('home', compact('posts', 'users'));
     }
+
+    public function store(Request $request){
+        $this->validate(request(),[
+            'post'=>'required'
+        ]);
+        $post = $request->post;
+        dd($post);
+        auth()->user()->addPost($post);
+        return redirect('/home');
+    }
 }

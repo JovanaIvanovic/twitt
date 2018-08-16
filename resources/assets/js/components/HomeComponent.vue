@@ -9,17 +9,34 @@
                 </div>
             </div>
         </div>
+        <div id="button" @click="popup">
+            <div id="addnew"></div>
+        </div>
+
+        <div class="modal" id="post-modal">
+            <newpost @close="close"></newpost>
+        </div>
     </div>
 </template>
 
 <script>
+
     export default {
+
         name:"home",
         props:{
             posts:Array,
             users:Array
         },
         methods:{
+            close(){
+                let modal= document.getElementById('post-modal');
+                modal.style.display="none";
+            },
+            popup(){
+                let modal= document.getElementById('post-modal');
+                modal.style.display= "block";
+            },
             getUser(id){
                 let i;
                 let user;
@@ -36,6 +53,30 @@
 </script>
 
 <style scoped>
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    #button{
+        margin-top: 12%; float:right; position: relative;
+    }
+    #addnew{
+        position: fixed;
+        right: 60px;
+        bottom: 60px;
+        background: url(../../../../public/uploads/add.png) no-repeat;
+        width: 60px; height: 60px;
+        cursor:pointer;
+        border-radius: 50%;
+    }
 
     @media (min-width: 1200px){
         .container {

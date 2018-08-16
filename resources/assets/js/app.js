@@ -16,8 +16,9 @@ window.Vue = require('vue');
  */
 
 Vue.component('example', require('./components/Profile.vue'));
-Vue.component('home', require('./components/HomeComponent.vue'));
 Vue.component('post', require('./components/PostComponent.vue'));
+Vue.component('home', require('./components/HomeComponent.vue'));
+Vue.component('newpost', require('./components/PostPopUp.vue'));
 
 const app = new Vue({
     el: '#app'
